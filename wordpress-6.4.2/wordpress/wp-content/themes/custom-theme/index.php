@@ -4,28 +4,33 @@
     <div class="content-left">
         <p>BUSINESS THEME</p>
         <h1>We Grow Up your Business</h1>
-        <p>We are new Digital Agency based in USA. We have over 10 years<br>of combined experience, and know a thing or two about designing websites<br>and mobile apps.</p>
+        <p>We are new Digital Agency based in USA. We have over 10 years<br>of combined experience, and know a thing or
+            two about designing websites<br>and mobile apps.</p>
         <button class="button-get-in-touch">GET IN TOUCH</button>
         <button>BUY THEME</button>
     </div>
     <div class="content-right">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
+            allowfullscreen></iframe>
     </div>
 </div>
 
 <div class="slider-container">
     <div class="slide">
-        <h3>Over 10 years of combined experience, and know<br>a thing or two about designing websites<br>and mobile apps.</h3>
+        <h3>Over 10 years of combined experience, and know<br>a thing or two about designing websites<br>and mobile
+            apps.</h3>
         <div class="categories">
             <div class="category">
                 <i class="icon"></i>
                 <h4>Web Development</h4>
-                <p>Web development is a broad term for the work<br>involved in developing a web site for<br>the internet.</p>
+                <p>Web development is a broad term for the work<br>involved in developing a web site for<br>the
+                    internet.</p>
             </div>
             <div class="category">
                 <i class="icon"></i>
                 <h4>Web & UI/UX Design</h4>
-                <p>Web design encompasses many different skills<br>and disciplines in the production and<br>maintenance of all web.</p>
+                <p>Web design encompasses many different skills<br>and disciplines in the production and<br>maintenance
+                    of all web.</p>
             </div>
             <div class="category">
                 <i class="icon"></i>
@@ -42,33 +47,42 @@
     </div>
     <div class="blue-column">
         <h2>Our Mission</h2>
-        <p>We use an agile approach to test assumptions and connect with<br>the needs of your audience early and often. Technology enables
-        <br>great experiences. We like and use technology but we have tried<br>hard to not fall in love with it.
-        <br><br>Clever use of technology and lean processes enable us to work<br>faster and smarter.</p>
+        <p>We use an agile approach to test assumptions and connect with<br>the needs of your audience early and often.
+            Technology enables
+            <br>great experiences. We like and use technology but we have tried<br>hard to not fall in love with it.
+            <br><br>Clever use of technology and lean processes enable us to work<br>faster and smarter.</p>
         <p class="signature">Your Signature</p>
     </div>
 </div>
 
-<!-- New container with 3 columns -->
+
 <div class="three-columns-container">
     <div class="column blue-background">
         <h2>01. Discussion</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
     </div>
     <div class="column red-background">
         <h2>02. Development</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
     </div>
     <div class="column blue-background">
         <h2>Release Project</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.</p>
     </div>
 </div>
 
-<!-- New container with facts about us -->
+
 <div class="facts-container">
     <h2>Some Facts about us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br>laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br>laboris nisi ut aliquip ex ea
+        commodo consequat.</p>
     <div class="facts">
         <div class="facts-column">
             <i class="icon fas fa-briefcase"></i>
@@ -94,7 +108,6 @@
 </div>
 
 
-<!-- New container for "Want to work with us?" -->
 <div class="contact-container">
     <div class="contact-left">
         <h2>Want to work with us?</h2>
@@ -106,7 +119,6 @@
 </div>
 
 
-<!-- New container for "Our main Industries" -->
 <div class="industries-container">
     <div class="industries-left">
         <h2>Our Main Industries</h2>
@@ -123,15 +135,49 @@
         <div class="slider">
             <div class="slide1">
                 <div class="box top-grey-background"></div>
-                <div class="box blue-background">
+                <div class="box blue-background-industries">
                     <h4 class="white-text">Web Development</h4>
                 </div>
             </div>
             <div class="slide2">
-                <div class="box red-background">
-                    <h4>Web Design</h4>
-                    <p class="white-text">Graphic design is the process of visual communication and problem-solving through the use of illustration and text.</p>
+                <div class="box red-background-industries">
+                    <h4 class="white-text">Web Design</h4>
+                    <p class="white-text">Graphic design is the process of visual communication and problem-solving
+                        through the use of illustration and text.</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="brands-container">
+    <img src="logo1.png" alt="Logo 1">
+    <img src="logo2.png" alt="Logo 2">
+    <img src="logo3.png" alt="Logo 3">
+    <img src="logo4.png" alt="Logo 4">
+    <img src="logo5.png" alt="Logo 5">
+</div>
+
+
+<div class="contacts-slider-container">
+    <div class="contact-slide">
+        <div class="contact-info">
+        <div class="contact-image" style="background-color: #ffffff;"></div>
+            <img src="circle-image1.jpg" alt="Profile 1" class="actual-contact-image">
+            <div class="text-info">
+                <h4 class="contact-name">John Leonard</h4>
+                <p class="contact-description">Maecenas auctor nibh elit, facilisis hendrerit libero susci<br>pit a. Integer eget pharetra nulla. Etiam eget sollicitu<br>din libero molestie.</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-slide">
+        <div class="contact-info">
+        <div class="contact-image" style="background-color: #ffffff;"></div>
+            <img src="circle-image2.jpg" alt="Profile 2" class="actual-contact-image">
+            <div class="text-info">
+                <h4 class="contact-name">Emma Simpson</h4>
+                <p class="contact-description">Vestibulum at mattis nibh. Proin in sapien sed lacus<br>ultrices fringilla. Sed non augue ac quam ullamcorper<br>lacinia eu vitae sem.</p>
             </div>
         </div>
     </div>
@@ -140,5 +186,6 @@
 
 
 
+<?php include 'footer.php'; ?>
 
 <?php get_footer(); ?>

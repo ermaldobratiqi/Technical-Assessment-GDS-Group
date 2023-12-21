@@ -125,10 +125,6 @@ button {
     margin-right: 20px;
 }
 
-.category i {
-    
-}
-
 /* Styling for the Mission Container */
 .mission-container {
     display: flex;
@@ -162,9 +158,7 @@ button {
     margin-top: auto;
 }
 
-/* -------------- */
-
-/* Styling for the new three-columns container */
+/* Styling for the three-columns container */
 .three-columns-container {
     display: flex;
     justify-content: space-between;
@@ -195,42 +189,39 @@ button {
 
 .facts {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
-    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .facts-column {
     flex: 1;
     padding: 20px;
-    max-width: 300px; /* Adjust as needed */
-    text-align: left; /* Align text to the left */
+    max-width: 300px;
+    text-align: left;
     display: flex;
-    flex-direction: column; /* Display items in a column */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .icon {
-    /* Add styling for the icon */
-    font-size: 24px; /* Adjust the font size as needed */
-    margin-bottom: 10px; /* Add margin at the bottom of the icon for spacing */
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-/* Add styling for h3 */
 .facts-column h3 {
-    color: #0a1c58; /* Change the color of h3 */
-    margin: 0; /* Adjust margin */
-    display: flex; /* Make h3 a flex container */
-    align-items: center; /* Center items vertically */
+    color: #0a1c58;
+    margin: 0;
+    display: flex;
+    align-items: center; 
 }
 
 .facts-column h3 i {
-    margin-right: 8px; /* Add margin between icon and text */
+    margin-right: 8px;
 }
 
 .facts-column p {
-    margin: 0; /* Adjust margin */
+    margin: 0; 
 }
-
 
 
 /* Styling for the new contact container */
@@ -252,7 +243,7 @@ button {
 .contact-right {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Align content to the right */
+    justify-content: flex-end;
     flex: 1;
 }
 
@@ -262,11 +253,10 @@ button {
     border: none;
 }
 
-
-/* Styling for the new industries container */
+/* Styling for the industries container */
 .industries-container {
     display: flex;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 50px;
 }
 
@@ -297,8 +287,8 @@ ul li {
 }
 
 .checkmark-icon::before {
-    content: '\2713'; /* Unicode checkmark character */
-    color: #0a1c58; /* Change the color of the checkmark */
+    content: '\2713';
+    color: #0a1c58; 
 }
 
 .industries-right {
@@ -313,33 +303,132 @@ ul li {
 .slide2 {
     display: flex;
     flex-direction: column;
-    width: 40%; /* Set width to 50% for both slides */
+    width: 50%; 
 }
 
 .top-grey-background,
 .box {
-    width: 100%;
+    width: 80%;
 }
 
 .top-grey-background {
     margin-top: 30px;
     background-color: #ccc;
-    height: 180px; /* Increased the height of the grey background */
+    height: 180px; 
 }
 
 .box {
     padding: 20px;
 }
 
-.blue-background {
+.blue-background-industries {
     background-color: #0a1c58;
 }
 
-.red-background {
+.red-background-industries {
     background-color: #b93232;
+    margin-top: 30px;
+    height: 280px; 
 }
 
 .white-text {
     color: #fff;
-    text-align: center; /* Center the text in the second slide */
+    text-align: center; 
+}
+
+
+/* Styling for Brands Container */
+.brands-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.brands-container img {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+
+/* Styling for Contacts Slider Container */
+.contacts-slider-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 70px;
+}
+
+.contact-slide {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.actual-contact-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text-info .contact-name {
+    margin-bottom: 10px;
+}
+
+/* Styling for responsiveness */
+@media (max-width: 768px) {
+    .contacts-slider-container {
+        flex-direction: column;
+    }
+
+    .contact-slide {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-info .contact-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+/* Styling for the footer */
+.footer-container {
+    background-color: #101010;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
