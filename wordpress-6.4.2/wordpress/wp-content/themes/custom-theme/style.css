@@ -424,6 +424,88 @@ ul li {
 
 
 
+/* Styling for the Request a Call Back Container */
+.callback-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a1c58;
+    color: #fff;
+    padding: 70px;
+}
+
+.callback-left {
+    flex: 1;
+}
+
+.callback-left h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.small-text {
+    margin-bottom: 10px;
+}
+
+.callback-right {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+select,
+input,
+.request-call-button {
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+select,
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.request-call-button {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    .callback-container {
+        flex-direction: column;
+    }
+
+    .callback-left,
+    .callback-right {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+}
+
+
+
 
 /* Styling for the footer */
 .footer-container {

@@ -184,6 +184,40 @@
 </div>
 
 
+<div class="callback-container">
+    <div class="callback-left">
+        <h2>Request a Call Back</h2>
+        <p class="small-text">Let us know what you're looking for in an agency.<br>We'll take a look and see if this could be the start<br>of something beautiful. Please get in touch and let's<br>schedule time to talk!</p>
+    </div>
+    <div class="callback-right">
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <select id="service" name="service">
+                        <option value="web-development">Web Development</option>
+                        <option value="software-developer">Software Developer</option>
+                        <option value="software-engineer">Software Engineer</option>
+                        <option value="ui-ux">UI/UX</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+                </div>
+                <div class="form-group">
+                    <button class="request-call-button" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
 
 
 <?php include 'footer.php'; ?>
