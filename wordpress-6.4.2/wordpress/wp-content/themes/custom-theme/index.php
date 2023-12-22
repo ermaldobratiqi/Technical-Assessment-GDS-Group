@@ -7,11 +7,13 @@
         <p>We are new Digital Agency based in USA. We have over 10 years<br>of combined experience, and know a thing or
             two about designing websites<br>and mobile apps.</p>
         <button class="button-get-in-touch">GET IN TOUCH</button>
-        <button>BUY THEME</button>
+        <button class="button-buy-theme">BUY THEME</button>
     </div>
     <div class="content-right">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
-            allowfullscreen></iframe>
+        <div class="video-container">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
@@ -55,7 +57,6 @@
     </div>
 </div>
 
-
 <div class="three-columns-container">
     <div class="column blue-background">
         <h2>01. Discussion</h2>
@@ -76,7 +77,6 @@
             commodo consequat.</p>
     </div>
 </div>
-
 
 <div class="facts-container">
     <h2>Some Facts about us</h2>
@@ -107,7 +107,6 @@
     </div>
 </div>
 
-
 <div class="contact-container">
     <div class="contact-left">
         <h2>Want to work with us?</h2>
@@ -117,7 +116,6 @@
         <button class="button-get-in-touch">GET IN TOUCH</button>
     </div>
 </div>
-
 
 <div class="industries-container">
     <div class="industries-left">
@@ -150,7 +148,6 @@
     </div>
 </div>
 
-
 <div class="brands-container">
     <img src="logo1.png" alt="Logo 1">
     <img src="logo2.png" alt="Logo 2">
@@ -159,35 +156,88 @@
     <img src="logo5.png" alt="Logo 5">
 </div>
 
-
 <div class="contacts-slider-container">
     <div class="contact-slide">
         <div class="contact-info">
-        <div class="contact-image" style="background-color: #ffffff;"></div>
+            <div class="contact-image" style="background-color: #ffffff;"></div>
             <img src="circle-image1.jpg" alt="Profile 1" class="actual-contact-image">
             <div class="text-info">
                 <h4 class="contact-name">John Leonard</h4>
-                <p class="contact-description">Maecenas auctor nibh elit, facilisis hendrerit libero susci<br>pit a. Integer eget pharetra nulla. Etiam eget sollicitu<br>din libero molestie.</p>
+                <p class="contact-description">Maecenas auctor nibh elit, facilisis hendrerit libero susci<br>pit a.
+                    Integer eget pharetra nulla. Etiam eget sollicitu<br>din libero molestie.</p>
             </div>
         </div>
     </div>
     <div class="contact-slide">
         <div class="contact-info">
-        <div class="contact-image" style="background-color: #ffffff;"></div>
+            <div class="contact-image" style="background-color: #ffffff;"></div>
             <img src="circle-image2.jpg" alt="Profile 2" class="actual-contact-image">
             <div class="text-info">
                 <h4 class="contact-name">Emma Simpson</h4>
-                <p class="contact-description">Vestibulum at mattis nibh. Proin in sapien sed lacus<br>ultrices fringilla. Sed non augue ac quam ullamcorper<br>lacinia eu vitae sem.</p>
+                <p class="contact-description">Vestibulum at mattis nibh. Proin in sapien sed lacus<br>ultrices
+                    fringilla. Sed non augue ac quam ullamcorper<br>lacinia eu vitae sem.</p>
             </div>
         </div>
     </div>
 </div>
 
+<div class="pricing-container">
+    <h1>Pricing Plans</h1>
+    <p class="small-text">Choose the plan that fits your needs best.</p>
+    <br>
+    <div class="pricing-row">
+        <div class="pricing-column">
+            <div class="pricing-box">
+                <h2>Standard Plan</h2>
+            </div>
+            <p class="price">$19.00</p>
+            <p>1 Months</p><br>
+            <p class="description">Modern & Creative Design</p>
+            <p class="description">Premium Plugins</p>
+            <p class="description">Clean Code</p>
+            <p class="description">Responsive Layouts</p>
+            <p class="description">Google Fonts</p>
+            <p class="description">Highly Customizable</p>
+            <button class="buy-now-button">BUY NOW</button>
+        </div>
+
+        <div class="pricing-column">
+            <div class="business-plan">
+                <h2>Business Plan</h2>
+            </div>
+            <p class="price">$79.00</p>
+            <p>6 Months</p><br>
+            <p class="description">Modern & Creative Design</p>
+            <p class="description">Premium Plugins</p>
+            <p class="description">Clean Code</p>
+            <p class="description">Responsive Layouts</p>
+            <p class="description">Google Fonts</p>
+            <p class="description">Highly Customizable</p>
+            <button class="buy-now-button">BUY NOW</button>
+        </div>
+
+        <div class="pricing-column">
+            <div class="pricing-box">
+                <h2>Premium Plan</h2>
+            </div>
+            <p class="price">$149.00</p>
+            <p>12 Months</p><br>
+            <p class="description">Modern & Creative Design</p>
+            <p class="description">Premium Plugins</p>
+            <p class="description">Clean Code</p>
+            <p class="description">Responsive Layouts</p>
+            <p class="description">Google Fonts</p>
+            <p class="description">Highly Customizable</p>
+            <button class="buy-now-button">BUY NOW</button>
+        </div>
+    </div>
+</div>
 
 <div class="callback-container">
     <div class="callback-left">
         <h2>Request a Call Back</h2>
-        <p class="small-text">Let us know what you're looking for in an agency.<br>We'll take a look and see if this could be the start<br>of something beautiful. Please get in touch and let's<br>schedule time to talk!</p>
+        <p class="small-text">Let us know what you're looking for in an agency.<br>We'll take a look and see if this
+            could be the start<br>of something beautiful. Please get in touch and let's<br>schedule time to talk!</p>
     </div>
     <div class="callback-right">
         <form>
@@ -216,6 +266,41 @@
     </div>
 </div>
 
+<div class="map-container">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1037.396355578346!2d21.15790461421937!3d42.65711717402483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1703202415233!5m2!1sen!2s"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="info-container">
+    <div class="info-column">
+        <h3 class="info-title">LOS ANGELES</h3>
+        <p class="info-text">145 olivershka Street,<br>Los Angeles, LA 90003<br>+44 987 065 901<br>info@Example.com</p>
+    </div>
+
+    <div class="info-column">
+        <h3 class="info-title">SAN FRANCISCO</h3>
+        <p class="info-text">210 Pier Street,<br>San Francisco, CA 94111<br>+44 987 065 902<br>info@Example.com</p>
+    </div>
+
+    <div class="info-column">
+        <h3 class="info-title">NEW YORK</h3>
+        <p class="info-text">711 Snow Street,<br>New York, NY 10014<br>+44 987 065 903<br>info@Example.com</p>
+    </div>
+
+    <div class="info-column">
+        <h3 class="info-title">FOLLOW US</h3>
+        <p class="info-text">Facebook<br>Twitter<br>Instagram<br>LinkedIn</p>
+    </div>
+</div>
+
+<div class="scroller">
+    <div class="scroll-to-top" onclick="scrollToTop()">
+        <div class="arrow-circle"></div>
+    </div>
+</div>
+
 
 
 
@@ -223,3 +308,13 @@
 <?php include 'footer.php'; ?>
 
 <?php get_footer(); ?>
+
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
